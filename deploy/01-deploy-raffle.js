@@ -33,7 +33,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   const callbackGasLimit = networkConfig[chainId]["callbackGaslimit"];
   const interval = networkConfig[chainId]["interval"];
 
-  args = [
+  const args = [
     vrfCoordinatorV2Address,
     entranceFee,
     gasLane,
