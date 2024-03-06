@@ -52,7 +52,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     !developmentChains.includes(network.name) &&
     process.env.ETHERSCAN_API_KEY
   ) {
-    log("verifying");
+    log("verifying...");
     await verify(raffle.address, args);
   }
   log("-----------------------------------------------");
