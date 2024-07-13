@@ -1,6 +1,6 @@
 //contract called raffle
 
-//players can enter the lottert (paying some amount)
+//players can enter the lottery (paying some amount)
 // pick a random winner(verifyably random)
 //winner to be selected at a particular interval (automated)
 // Chainlink oracle is needed for randomness, automated execution (chisnlink keepers)
