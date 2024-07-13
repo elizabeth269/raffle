@@ -27,7 +27,7 @@ error Raffle__UpkeepNotNeeded(
  * @dev this implements Chainlink VRF and Chainlink Keepers
  */
 
-contract Raffle is KeepersVRFConsumer {
+abstract contract Raffle is KeepersVRFConsumer {
     //type declarations
     enum RaffleState {
         OPEN,
